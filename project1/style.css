@@ -1,0 +1,45 @@
+<<<<<<< HEAD:style.css
+body{
+    background-image:url(pong.jpg);
+    background-color:rgb(255, 255, 255);
+}
+
+#pong{
+    border: 2px solid yellow;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    
+}
+h2{
+    padding-left: 354px;
+
+}
+.hide{
+    display: none;
+
+}
+.show{
+    display: block;
+}
+canvas{
+    padding-left: 80px;
+=======
+body{
+    background-image:url(pong.jpg);
+    background-color: rgb(4, 4, 134);
+}
+
+#pong{
+    border: 2px solid yellow;
+    position: absolute;
+    margin :auto;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+>>>>>>> 4612dd31f1da3f709941d5bb89cebf0cf680792b:project1/style.css
+}
