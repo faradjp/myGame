@@ -114,7 +114,7 @@ function update(){
     // change the score of players, if the ball goes to the left "ball.x<0" computer win, else if "ball.x > canvas.width" the user win
     if( ball.x - ball.radius < 0 ){
         com.score++;
-        if(com.score >= 1){
+        if(com.score >= 11){
             // alert('Game Over')
             // const $div = $("<div>")
             // $("body").append($div)
@@ -130,7 +130,7 @@ function update(){
         resetBall();
     }else if( ball.x + ball.radius > canvas.width){
         user.score++;
-       if(user.score >= 1){
+       if(user.score >= 11){
         //   alert('You Win')
         // const $div = $("<div>")
         //     $("body").append($div)
